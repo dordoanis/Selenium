@@ -16,7 +16,7 @@ def driver():
 
     # Enter our Phone number 
     phone_num = my_driver.find_element_by_xpath('//*[@id="q1569938320"]/div/div/div[1]/div/div[2]/div/input')
-    phone_num.send_keys('528925142')
+    phone_num.send_keys('<phone>')
     login_continue = my_driver.find_element_by_xpath('//*[@id="q1569938320"]/div/div/div[1]/div/button')
     login_continue.click()
 
